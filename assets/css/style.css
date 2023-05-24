@@ -10,6 +10,8 @@ body {
     font-family: 'Source Serief Pro', serif;
 }
 
+/* logo */
+
 h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -19,8 +21,21 @@ h1 {
 #logo {
     float: left;
     font-size: 300%;
+    position: relative;
+    animation: load 5s;
 }
 
+@keyframes load {
+    from {
+        left: -500px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+/* Nav Menu */
 nav li {
     float: right;
     margin-right: 20px;
@@ -35,4 +50,18 @@ nav a {
 
 nav a:hover {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Main image */
+
+#main-image-outer {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-image {
+    height: 400px;
+    width: 100%;
+    background: url('../images/135.jpg') no-repeat center center;
 }
