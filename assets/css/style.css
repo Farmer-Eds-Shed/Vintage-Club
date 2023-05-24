@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Source Serief Pro', serif;
+    background-color: beige;
 }
 
 /* logo */
@@ -44,12 +45,22 @@ nav li {
 
 
 nav a {
+    background-color: rgb(9, 236, 168);
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: black;
+    padding: 10px;
     text-decoration: none;
     color: inherit;
 }
 
 nav a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    background-color: rgb(205, 202, 50);
+}
+
+h1,
+nav {
+    line-height: 75px;
 }
 
 /* Main image */
