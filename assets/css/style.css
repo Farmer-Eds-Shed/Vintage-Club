@@ -74,5 +74,39 @@ nav {
 #main-image {
     height: 400px;
     width: 100%;
-    background: url('../images/135.jpg') no-repeat center center;
+    background: url('../images/135L.jpg') no-repeat center center;
+
+}
+
+/* content */
+#about {
+    float: left;
+    width: 75%
+}
+
+#events {
+    width: 25%;
+    float: left;
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
