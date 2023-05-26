@@ -21,22 +21,24 @@ div {
     background-color: #ffffff;
     width: 100%;
     position: fixed;
+    height: 100px;
 }
 
 /* logo */
 
-h1 {
+#logo {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     color: #616161;
     margin-left: 10px;
-}
-
-#logo {
     float: left;
     font-size: 300%;
     position: relative;
-    animation: load 5s;
+    animation: load 4s;
+}
+
+#logo:hover {
+    color: black;
 }
 
 @keyframes load {
@@ -58,7 +60,7 @@ nav li {
 
 
 nav a {
-    background-color: rgb(9, 236, 168);
+    background-color: beige;
     border: 1px solid;
     border-radius: 15px;
     border-color: black;
@@ -68,12 +70,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgb(205, 202, 50);
+    background-color: rgb(224, 223, 142);
+    box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 6px 12px rgba(0, 0, 0, .32);
 }
 
-h1,
+#logo,
 nav {
-    line-height: 75px;
+    line-height: 100px;
 }
 
 /* Main image */
@@ -105,6 +108,11 @@ nav {
 
 .content {
     padding-bottom: 50px;
+}
+
+p {
+    padding-left: 20%;
+    padding-top: 10%;
 }
 
 /* Footer */
@@ -146,6 +154,8 @@ footer {
 }
 
 .box {
+    font-family: Oswald, sans-serif;
+    font-size: 150%;
     position: relative;
     background: rgb(255, 255, 255);
     height: 64px;
