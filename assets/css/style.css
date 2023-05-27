@@ -20,6 +20,7 @@ div {
     width: 100%;
     position: fixed;
     height: 100px;
+    z-index: 100;
 }
 
 /* logo */
@@ -28,7 +29,7 @@ div {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     color: #616161;
-    margin-left: 10px;
+    margin-left: 20px;
     float: left;
     font-size: 300%;
     position: relative;
@@ -81,7 +82,8 @@ nav {
 
 #main-image-outer {
     padding-top: 100px;
-    height: 400px;
+    padding-bottom: 150px;
+    height: 300px;
     width: 100%;
     overflow: hidden;
 }
@@ -90,11 +92,14 @@ nav {
     height: 400px;
     width: 100%;
     background: url('../images/135L.jpg') no-repeat center center;
-
 }
 
 /* content */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
+
+    #main-image {
+        zoom: 130%;
+    }
 
     #about {
         float: left;
@@ -104,6 +109,7 @@ nav {
     #events {
         float: left;
         width: 30%;
+        padding-right: 5%;
     }
 }
 
@@ -111,9 +117,19 @@ nav {
     padding-bottom: 100px;
 }
 
+#about {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+h2 {
+    padding-bottom: 2%;
+    font-size: 150%;
+}
+
 p {
-    padding-left: 20%;
-    padding-top: 10%;
+    font-size: 150%;
+    line-height: 200%
 }
 
 /* Footer */
@@ -125,6 +141,7 @@ footer {
     padding-top: 10px;
     bottom: 0;
     background: white;
+    z-index: 100;
 }
 
 .social-networks {
@@ -148,6 +165,7 @@ footer {
 .accordion {
     margin: auto;
     width: 400px;
+    padding-top: 2%;
 }
 
 .accordion input {
@@ -177,7 +195,7 @@ footer {
 
 header.box {
     background: #17631d;
-    z-index: 100;
+    z-index: 10;
     cursor: initial;
     box-shadow: 0 -1px 0 #e5e5e5, 0 0 2px -2px rgba(0, 0, 0, .12), 0 2px 4px -4px rgba(0, 0, 0, .24);
 }
