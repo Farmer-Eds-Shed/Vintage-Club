@@ -289,13 +289,13 @@ input:checked+section.box .box-title:before {
     #menu {
         clear: left;
         float: left;
-        margin-left: 80px;
+        margin-left: 10%;
         margin-bottom: 20px;
         line-height: 25px;
     }
 
     #logo {
-        font-size: 220%;
+        font-size: 200%;
     }
 
 }
