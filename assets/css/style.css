@@ -20,7 +20,6 @@ div {
     background-color: #ffffff;
     width: 100%;
     position: fixed;
-
     z-index: 100;
 }
 
@@ -30,7 +29,7 @@ div {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     color: #616161;
-    margin-left: 1%;
+    margin-left: 5%;
     float: left;
     font-size: 300%;
     position: relative;
@@ -121,7 +120,7 @@ p {
     font-size: 150%;
     line-height: 200%;
     padding-left: 2%;
-    padding-right: 2%;
+    padding-right: 5%;
     text-align: justify;
 }
 
@@ -301,6 +300,7 @@ input:checked+section.box .box-title:before {
 
     #logo {
         font-size: 200%;
+        margin-left: 0.5%;
     }
 
 }
