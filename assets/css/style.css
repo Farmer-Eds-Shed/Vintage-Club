@@ -9,6 +9,7 @@
 body {
     font-family: 'Source Serief Pro', serif;
     background-color: beige;
+    position: absolute;
 }
 
 div {
@@ -29,7 +30,7 @@ div {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     color: #616161;
-    margin-left: 20px;
+    margin-left: 1%;
     float: left;
     font-size: 300%;
     position: relative;
@@ -86,12 +87,16 @@ nav {
     height: 300px;
     width: 100%;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #main-image {
     height: 400px;
     width: 100%;
     background: url('../images/135L.jpg') no-repeat center center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* content */
@@ -116,7 +121,7 @@ p {
     font-size: 150%;
     line-height: 200%;
     padding-left: 2%;
-    padding-right: 5%;
+    padding-right: 2%;
     text-align: justify;
 }
 
