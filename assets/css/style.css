@@ -86,8 +86,6 @@ nav {
     height: 300px;
     width: 100%;
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #main-image {
@@ -124,7 +122,7 @@ p {
     text-align: justify;
 }
 
-/* Footer */
+/* Footer adapted from Love Running */
 
 footer {
     width: 100%;
@@ -152,7 +150,7 @@ footer {
 }
 
 
-/* accordian */
+/* accordian adapted from https: //alvarotrigo.com/blog/css-accordion/ */
 
 .accordion {
     margin: auto;
