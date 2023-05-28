@@ -19,7 +19,7 @@ div {
     background-color: #ffffff;
     width: 100%;
     position: fixed;
-    height: 100px;
+
     z-index: 100;
 }
 
@@ -95,23 +95,7 @@ nav {
 }
 
 /* content */
-@media only screen and (min-width: 1000px) {
 
-    #main-image {
-        zoom: 130%;
-    }
-
-    #about {
-        float: left;
-        width: 60%;
-    }
-
-    #events {
-        float: left;
-        width: 30%;
-        padding-right: 5%;
-    }
-}
 
 .content {
     padding-bottom: 100px;
@@ -123,13 +107,17 @@ nav {
 }
 
 h2 {
+    padding-left: 2%;
     padding-bottom: 2%;
     font-size: 150%;
 }
 
 p {
     font-size: 150%;
-    line-height: 200%
+    line-height: 200%;
+    padding-left: 2%;
+    padding-right: 5%;
+    text-align: justify;
 }
 
 /* Footer */
@@ -268,4 +256,46 @@ input:checked+.box .box-close {
 
 input:checked+section.box .box-title:before {
     transform: rotate(90deg);
+}
+
+
+
+/* For medium screens sizes from 1200px wide and up */
+@media only screen and (min-width: 1200px) {
+
+    #main-image {
+        zoom: 130%;
+    }
+
+    #about {
+        float: left;
+        width: 60%;
+    }
+
+    #events {
+        float: left;
+        width: 30%;
+        padding-right: 5%;
+    }
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #main-image-outer {
+        padding-top: 150px;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #logo {
+        font-size: 220%;
+    }
+
 }
