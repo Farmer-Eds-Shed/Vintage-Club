@@ -31,7 +31,7 @@ div {
     color: #616161;
     margin-left: 5%;
     float: left;
-    font-size: 300%;
+    font-size: 250%;
     position: relative;
     animation: load 4s;
 }
@@ -263,7 +263,7 @@ input:checked+section.box .box-title:before {
 
 
 /* For medium screens sizes from 1200px wide and up */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
 
     #main-image {
         zoom: 130%;
@@ -279,9 +279,13 @@ input:checked+section.box .box-title:before {
         width: 30%;
         padding-right: 5%;
     }
+
+    #logo {
+        font-size: 300%;
+    }
 }
 
-/* For medium screens sizes from 950px wide and down */
+/* For small screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
     #main-image-outer {
@@ -297,8 +301,8 @@ input:checked+section.box .box-title:before {
     }
 
     #logo {
-        font-size: 200%;
-        margin-left: 0.5%;
+        font-size: 180%;
+
     }
 
 }
