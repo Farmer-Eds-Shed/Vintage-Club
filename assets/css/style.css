@@ -333,7 +333,7 @@ iframe {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    color: #616161;
+    color: black;
     display: block;
 }
 
@@ -389,6 +389,7 @@ iframe {
 @media screen and (max-width: 550px) {
 
     #logo {
+
         font-size: 160%;
 
     }
