@@ -36,7 +36,7 @@
         </div>
     </header>
 
- 
+
 
     <section class="form-section">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
@@ -51,9 +51,17 @@
             <input class="text-input" type="email" id="email" name="email_address" required>
 
             <label for="phone">Phone Number</label>
-            <input class="text-input" type="phone" id="phone" name="phone_number" required>
+            <input class="text-input" type="tel" id="phone" name="phone_number" required>
 
+            <div class="alerts">
+                <input type="checkbox" name="sms_alerts" value="sms_alerts">
+                <label for="sms_alerts">Receive SMS Alerts</label>
+            </div>
 
+            <div class="alerts">
+                <input type="checkbox" name="email_alerts" value="email_alerts">
+                <label for="email_alerts">Receive Email Alerts</label>
+            </div>
 
             <input class="join-button" type="submit" value="Signup">
         </form>

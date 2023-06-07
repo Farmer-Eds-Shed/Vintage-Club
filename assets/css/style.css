@@ -328,6 +328,21 @@ iframe {
     border-color: #17631d;
 }
 
+
+input[type=checkbox] {
+    transform: scale(2);
+    margin-right: 11px;
+    border: 2px;
+git 
+}
+
+.alerts {
+    padding: 10px 10px;
+}
+
+
+
+
 .join-button {
     margin-top: 20px;
     padding: 15px 32px 15px 32px;
