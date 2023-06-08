@@ -155,8 +155,8 @@ footer {
 
 .accordion {
     margin: auto;
-    width: 350px;
-    padding-top: 2%;
+    width: 50%;
+    padding-top: 5%;
 }
 
 .accordion input {
@@ -357,8 +357,8 @@ input[type=checkbox] {
 }
 
 
-/* For medium screens sizes from 1000px wide and up */
-@media only screen and (min-width: 1000px) {
+/* For medium screens sizes from 1200px wide and up */
+@media only screen and (min-width: 1200px) {
 
     #main-image {
         zoom: 130%;
@@ -378,6 +378,10 @@ input[type=checkbox] {
     #logo {
         font-size: 300%;
     }
+
+    .accordion {
+        width: 100%;
+    }
 }
 
 /* For small screens sizes from 850px wide and down */
@@ -395,11 +399,13 @@ input[type=checkbox] {
         line-height: 25px;
     }
 
-
+    .accordion {
+        width: 70%;
+    }
 
 }
 
-/* For small screens sizes from 600px wide and down */
+/* For small screens sizes from 550px wide and down */
 @media screen and (max-width: 550px) {
 
     #logo {
@@ -407,6 +413,14 @@ input[type=checkbox] {
     }
 
     p {
+        font-size: 120%;
+    }
+
+    .accordion {
+        width: 90%;
+    }
+
+    .box {
         font-size: 120%;
     }
 }
