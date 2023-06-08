@@ -307,6 +307,7 @@ iframe {
     max-width: 500px;
     float: left;
     padding: 30px;
+    letter-spacing: 1px;
 }
 
 .signup-form>h2 {
