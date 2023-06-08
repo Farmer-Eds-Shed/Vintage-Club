@@ -341,8 +341,6 @@ input[type=checkbox] {
 }
 
 
-
-
 .join-button {
     margin-top: 20px;
     padding: 15px 32px 15px 32px;
@@ -410,3 +408,4 @@ input[type=checkbox] {
     p {
         font-size: 120%;
     }
+}
