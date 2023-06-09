@@ -270,30 +270,22 @@ iframe {
 }
 
 
-/* GALLERY WRAPPER */
+
+
+/* Gallery */
 .gallery {
-    /*GRID LAYOUT - 3 IMAGES PER ROW */
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-
+    line-height: 0;
+    column-count: 4;
+    column-gap: 5px;
 }
 
-/* GALLERY IMAGES */
 .gallery img {
     width: 100%;
-    height: 150px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    background: #fff;
-
-    /* cover | contain | fill | scale-down */
-    object-fit: contain;
-    position: relative;
+    height: auto;
+    margin-bottom: 10px;
 }
 
-/* Form */
+/*Membership Form */
 .form-section {
     background: url('../images/135-bonnet.jpg') no-repeat center center;
     height: 900px;
@@ -307,7 +299,6 @@ iframe {
     max-width: 500px;
     float: left;
     padding: 30px;
-    letter-spacing: 1px;
 }
 
 .signup-form>h2 {
@@ -382,6 +373,10 @@ input[type=checkbox] {
     .accordion {
         width: 100%;
     }
+
+    .signup-form {
+        letter-spacing: 1px;
+    }
 }
 
 /* For small screens sizes from 850px wide and down */
@@ -403,6 +398,10 @@ input[type=checkbox] {
         width: 70%;
     }
 
+    .gallery {
+        column-count: 3;
+    }
+
 }
 
 /* For small screens sizes from 550px wide and down */
@@ -422,5 +421,9 @@ input[type=checkbox] {
 
     .box {
         font-size: 120%;
+    }
+
+    .gallery {
+        column-count: 2;
     }
 }
