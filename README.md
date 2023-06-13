@@ -1,6 +1,8 @@
-# Meath Vintage Club
+# Meath Vintage Club 
 
-The Meath Vintage Club website is a landing page for vintage owners and enthusiasts
+https://farmer-eds-shed.github.io/Vintage-Club/index.html
+
+The Meath Vintage Club website is a landing page for vintage owners and enthusiasts.
 Users of the site will be able to signup for club membership, get contact details and details of upcoming events.
 
 ![Responsive Mockup](https://farmer-eds-shed.github.io/Vintage-Club/media/responsive-site.png)
@@ -28,12 +30,22 @@ Users of the site will be able to signup for club membership, get contact detail
  
  - __Upcomming Events Accordian Menu__
   
-    - This menu will allow the user to see all upcoming events where the club will meet and partake.
+    - This menu will allow the user to see all upcoming events where the club will meet.
     - Each event is clickable and will expand with event time, date and a map to the location.
     
     ![accordian menu](https://github.com/Farmer-Eds-Shed/Vintage-Club/blob/main/media/accordian-menu.png)
 
+- __Gallery_Page__
+    
+    - This page is a place to show off members vehicles or interesting finds from events that the club attends.
+    - the Gallery is devided into 3 sections for Fair Days, Working Days and Vehicles In the Workshop.
+      
+    ![gallery page](https://github.com/Farmer-Eds-Shed/Vintage-Club/blob/main/media/Gallery.png)
 
+- __The Membership Page__
 
+  - This page will allow the user to get signed up as a member of the club. The user will be asked to submit their full name and email address and phone number, they will also select their prefered method of contact.
+
+    ![membership page](https://github.com/Farmer-Eds-Shed/Vintage-Club/blob/main/media/membership.png)
 
 ## Credits
