@@ -26,14 +26,14 @@ Users of the site will be able to signup for club membership, get links to the c
 
 - __About the Club Section__
 
-  - Thiss section will allow the user to see the benefits of joining the Meath Vintage Club,  
+  - This section will allow the user to see the benefits of joining the Meath Vintage Club,  
  
- - __Upcomming Events Accordian Menu__
+ - __Upcoming Events Accordion Menu__
   
     - This menu will allow the user to see all upcoming events where the club will meet.
     - Each event is clickable and will expand with event time, date and a map to the location.
     
-    ![accordian menu](https://github.com/Farmer-Eds-Shed/Vintage-Club/blob/main/media/accordian-menu.png)
+    ![accordion menu](https://github.com/Farmer-Eds-Shed/Vintage-Club/blob/main/media/accordian-menu.png)
     
 - __The Footer__ 
 
@@ -42,27 +42,25 @@ Users of the site will be able to signup for club membership, get links to the c
 
   ![footer](https://github.com/Farmer-Eds-Shed/Vintage-Club/blob/main/media/footer.png)
 
-- __Gallery_Page__
+- __Gallery Page__
     
     - This page is a place to show off members vehicles or interesting finds from events that the club attends.
-    - the Gallery is devided into 3 sections for Fair Days, Working Days and Vehicles In the Workshop.
+    - the Gallery is divided into 3 sections for Fair Days, Working Days and Vehicles In the Workshop.
       
     ![gallery page](https://github.com/Farmer-Eds-Shed/Vintage-Club/blob/main/media/Gallery.png)
 
 - __The Membership Page__
 
-  - This page will allow the user to get signed up as a member of the club. The user will be asked to submit their full name and email address and phone number, they will also select their prefered method of contact.
+  - This page will allow the user to get signed up as a member of the club. The user will be asked to submit their full name and email address and phone number, they will also select their preferred method of contact.
 
     ![membership page](https://github.com/Farmer-Eds-Shed/Vintage-Club/blob/main/media/membership.png)
 
 ### Features Left to Implement
 
 - Future development of the site should include a club news section.
-- A blog section for members to share stories about their vehicles and whats in the workshop.
+- A blog section for members to share stories about their vehicles and what's in the workshop.
 
 ## Testing 
-
-
 
 
 ### Validator Testing 
@@ -74,7 +72,7 @@ Users of the site will be able to signup for club membership, get links to the c
 
 ### Quality and Performance Testing
 
-- Lighthouse Report
+- Chromes Lighthouse Report was used to test performance and accessibility.
 
     ![lighthouse](https://github.com/Farmer-Eds-Shed/Vintage-Club/blob/main/media/lighthouse.png)
 
@@ -90,7 +88,7 @@ Users of the site will be able to signup for club membership, get links to the c
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab.
-  - Chooose Pages from left-hand menu.  
+  - Choose Pages from left-hand menu.  
   - From the source section drop-down menu, select deploy from a branch.
   - From the branch section drop-down menu, select main and save.
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
