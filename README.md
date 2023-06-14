@@ -48,4 +48,45 @@ Users of the site will be able to signup for club membership, get contact detail
 
     ![membership page](https://github.com/Farmer-Eds-Shed/Vintage-Club/blob/main/media/membership.png)
 
-## Credits
+### Features Left to Implement
+
+- Another feature idea
+
+## Testing 
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://farmer-eds-shed.github.io/Vintage-Club/index.html 
+
+
+## Credits 
+
+- The icons were taken from [Font Awesome](https://fontawesome.com/)
+- The accordion menu was adapted from [CodePen](https://codepen.io/alvarotrigo/pen/jOYNvVO)
+- The Footer was adapted from [Code-Institute-Org/love-running-2.0](https://github.com/Code-Institute-Org/love-running-2.0/tree/main)
+- Other Code references [W3 Schools](https://www.w3schools.com/), [StackOverflow](stackoverflow.com), [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecomm)
+
