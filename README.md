@@ -89,9 +89,11 @@ Users of the site will be able to signup for club membership, get links to the c
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - In the GitHub repository, navigate to the Settings tab.
+  - Chooose Pages from left-hand menu.  
+  - From the source section drop-down menu, select deploy from a branch.
+  - From the branch section drop-down menu, select main and save.
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://farmer-eds-shed.github.io/Vintage-Club/index.html 
 
