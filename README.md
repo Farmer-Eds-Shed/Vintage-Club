@@ -71,6 +71,13 @@ Users of the site will be able to signup for club membership, get contact detail
 
     ![lighthouse](https://github.com/Farmer-Eds-Shed/Vintage-Club/blob/main/media/lighthouse.png)
 
+### Manual Testing
+
+- All links clicked, and connect to correct addresses.
+- All Accordion Menu items expand.
+- Responsive site tested at various resolutions down to a width of 320px using Developer Tools in Google Chrome and Firefox.
+- Site tested on Mobile using OnePlus Nord 10 @ 384px X 704px.
+- Form Input checked for required fields, email format and data sent to [Code Institute Formdump](https://formdump.codeinstitute.net/).
 
 ## Deployment
 
