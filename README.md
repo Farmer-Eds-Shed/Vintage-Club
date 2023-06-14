@@ -65,6 +65,12 @@ Users of the site will be able to signup for club membership, get contact detail
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffarmer-eds-shed.github.io%2FVintage-Club%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+### Quality and Performance Testing
+
+- Lighthouse Report
+
+    ![lighthouse](https://github.com/Farmer-Eds-Shed/Vintage-Club/blob/main/media/lighthouse.png)
+
 
 ## Deployment
 
